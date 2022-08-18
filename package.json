@@ -1,0 +1,9 @@
+{
+	"dependencies": {
+		"rollup": "^2.78.0"
+	},
+	"scripts": {
+		"build": "rm -rf dist && rollup -c"
+	},
+	"type": "module"
+}
