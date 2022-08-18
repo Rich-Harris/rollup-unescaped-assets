@@ -22,8 +22,8 @@ const config = {
 
 					const asset = this.emitFile({
 						type: 'asset',
-						name: basename,
-						// fileName: `assets/${basename}`,
+						// name: basename,
+						fileName: `assets/${basename}`,
 						source: code
 					});
 
